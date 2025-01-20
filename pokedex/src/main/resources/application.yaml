@@ -1,0 +1,10 @@
+spring:
+   datasource:
+     username: pokedex
+     password: pokedex
+     url: jdbc:mysql://localhost:3306/pokedex
+   
+   jpa:
+     hibernate:
+       ddl-auto: create
+     show-sql: true
