@@ -18,9 +18,9 @@ public class Location {
 	@Id
 	@GeneratedValue (strategy = GenerationType.IDENTITY)
 	private Long locationId;
-	private Long locationRegion;
-	private Long locationPlace;
-	private Long locationTime;
+	private String locationRegion;
+	private String locationPlace;
+	private String locationTime;
 	
 	@EqualsAndHashCode.Exclude
 	@ToString.Exclude

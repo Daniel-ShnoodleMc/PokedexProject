@@ -12,7 +12,7 @@ import pokemon.entity.Pokemon;
 @Data
 @NoArgsConstructor
 public class PokemonData {
-	private long pokemonId;
+	private Long pokemonId;
 	private String pokemonName;
 	private String pokemonType;
 	private String pokemonAbility;

@@ -8,9 +8,9 @@ import pokemon.entity.Location;
 @NoArgsConstructor
 public class PokemonLocation {
 	private Long locationId;
-	private Long locationRegion;
-	private Long locationPlace;
-	private Long locationTime;
+	private String locationRegion;
+	private String locationPlace;
+	private String locationTime;
 	
 	public PokemonLocation (Location location) {
 		locationId = location.getLocationId();
